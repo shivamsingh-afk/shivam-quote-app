@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Quotes - Daily Inspiration</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 Shivam Quotes</h1>
+        <p>Share daily inspiration!</p>
+        
+        <div class="quote-box">
+            <blockquote id="quoteDisplay">"Click New Quote for inspiration!"</blockquote>
+            <small id="author">- Shivam IT</small>
+        </div>
+        
+        <div class="buttons">
+            <button onclick="newQuote()">🎲 New Quote</button>
+            <button onclick="shareQuote()">📱 Share</button>
+            <button onclick="saveFavorite()">❤️ Save</button>
+        </div>
+        
+        <div id="favorites" class="favorites">
+            <h3>Saved Quotes</h3>
+            <div id="favList"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
